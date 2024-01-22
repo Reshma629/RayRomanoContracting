@@ -1,0 +1,390 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+#firstbackground{
+    background-image: url("./images/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.jpg");
+    height: 750px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.whitebackground{
+    background-color: white;
+    height: 180px;
+}
+/* nav {
+    display: inline-flex;
+} */
+nav img{
+    margin-left: 6%;
+    margin-top: 2%;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: right;
+    position: absolute;
+    right: 120px;
+    top: 50px;
+}
+ul li{
+    justify-content: space-between;
+    font-size: 12px;
+    cursor: pointer;
+}
+.about{
+    color: lightgrey;
+}
+ul .about:hover{
+    color: black;
+}
+.ray{
+    color: #171717;
+    background-color: rgba(255,255,255,.6);
+    height: 80px;
+    width: 700px;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+.ray h1{
+    letter-spacing: 8px;
+    word-spacing: 5px;
+    font-weight: 100;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: "Source Sans Pro",sans-serif;
+}
+.ray1{
+    
+    color: #171717;
+    background-color: rgba(255,255,255,.83);
+    height: 80px;
+    width: 750px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.ray1 p{
+    word-spacing: 3px;
+    line-height: 25px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.icon{
+   margin-left: 650px;
+   margin-top: 230px;
+   font-size: 40px;
+   color: white;
+   font-weight: 100;
+}
+#icon1{
+    cursor: pointer;
+}
+#icon1:hover::before{
+    cursor: pointer;
+    content: 'scroll down';
+    font-size: 12px;
+}
+
+#secondbackground{
+    background-image: url("./images/Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg");
+    height: 840px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.eve{
+    background-color: rgba(255,255,255,.6);
+    width: 700px;
+    font-size: 35px;
+    font-weight: 50;
+    letter-spacing: 5px;
+    margin-left: 80px;
+    font-family: "Source Sans Pro",sans-serif;
+}
+#thirdbackground{
+    background-image: url("./images/Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg");
+    height: 1000px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.ser{
+    margin-top: 15%;
+    background-color: rgba(255,255,255,.5);
+    width: 250px;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-left: 80px;
+    font-family: "Source Sans Pro",sans-serif;
+}
+#fourthbackground{
+    background-image: url("./images/1040.jpg");
+    height: 1000px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.test{
+    margin-top: 15%;
+    background-color: rgba(255,255,255,.5);
+    width: 380px;
+    font-size: 40px;
+    font-weight: 50;
+    letter-spacing: 5px;
+    margin-left: 80px;
+    font-family: "Source Sans Pro",sans-serif;
+}
+#fifthbackground{
+    background-image: url("./images/Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg");
+    height: 1000px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.gall{
+    margin-top: 15%;
+    background-color: rgba(255,255,255,.5);
+    width: 220px;
+    font-size: 40px;
+    font-weight: 50;
+    letter-spacing: 5px;
+    margin-left: 80px;
+    font-family: "Source Sans Pro",sans-serif;
+}
+.img3{
+    padding-left: 160px;
+    padding-top: 80px;
+}
+.h50{
+    position: absolute;
+    top: 800%; 
+    font-size: 11px;
+    color: #363636;
+}
+.h51{
+    position: absolute; 
+    left: 500px;
+    top: 800%; 
+    font-size: 11px;
+    color: #363636;
+}
+.h52{
+    position: absolute; 
+    top: 800%;
+    left: 840px; 
+    font-size: 11px;
+    color: #363636;
+}
+.h53{
+    position: absolute;
+    top: 845%; 
+    font-size: 11px;
+    color: #363636;
+}
+.h54{
+    position: absolute; 
+    top: 845%;
+    left: 500px; 
+    font-size: 11px;
+    color: #363636;
+}
+.h55{
+    position: absolute; 
+    top: 845%;
+    left: 840px; 
+    font-size: 11px;
+    color: #363636;
+}
+.h56{
+    position: absolute; 
+    left: 160px;
+    top: 890%;
+    font-size: 11px;
+    color: #363636;
+}
+
+
+.img1{
+    cursor: pointer;
+}
+.blacksmall{
+    height: 150px;
+    background-color: #171717;
+    /* background-color: yellow; */
+    margin-top: 870px;
+}
+.blacksmall i{
+    border: 2px solid none;
+    height: 20px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 80px;
+    background-color: white;
+    text-align: center;
+    /* padding-left: 8px;  */
+    padding-top: 8px;
+    cursor: pointer;
+}
+.blacksmall i:hover{
+    background-color: lightgrey;
+}
+.blacksmall h5{
+    position: absolute;
+    top: 925%;
+    left: 35%;
+    color: white;
+}
+.blacksmall h5+h5{
+    position: absolute;
+    left: 60%;
+}
+.blacksmall h5+h5+h5{
+    position: absolute;
+    left: 70%;
+}
+.top{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 911%;
+    left: 48%;
+    cursor: pointer;
+    background-color: white;
+}
+.top i{
+    border: 2px solid none;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.top i:hover{
+    background-color: white;
+}
+#side a:hover .title {
+    right: 20px;
+    opacity: 1;
+    z-index: 51;
+    padding-right: 15px;
+    visibility: visible
+}
+
+#side {
+    position: fixed;
+    z-index: 52;
+    top: 50%;
+    right: 15px;
+    padding: 0 10px 0 0;
+    transition: opacity .3s 0s linear;
+}
+
+#side a {
+    display: block;
+    margin: 0;
+    padding: 10px 0 10px 15px;
+    cursor: pointer;
+    outline: 0
+}
+
+#side a.active .dot {
+    width: 8px;
+    height: 8px;
+    margin-left: -1px
+}
+
+#side .dot {
+    width: 10px;
+    height: 10px;
+    display: block;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.title {
+    position: absolute;
+    right: 10px;
+    opacity: 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-family: proxima-nova;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    margin-top: -11px;
+    padding: 0 0 5px 0;
+    line-height: 32px;
+    visibility: hidden
+}
+
+.color#side .dot {
+    background-color: #000
+}
+
+.color#side .active .dot {
+    background-color: transparent;
+    border: solid 2px #000
+}
+
+.color#side .title {
+    color: #000
+}
+.first:hover{
+    background-color: white;
+}
+.image-container1 {
+    position: absolute;
+    left: 160px;
+    cursor: pointer;
+}
+  
+.button {
+    position: absolute;
+    top: 8%;
+    left: 10px;
+    color: white;
+    background-color: #c00;
+    border: 1px solid #c00;
+    opacity: 0;
+    cursor: pointer;
+}
+.hover-effect:hover + .button,
+.button:hover {
+    opacity: 1;
+}
+.image-container2 {
+    position: absolute;
+    left: 495px;
+    top: 770.2%;
+    cursor: pointer;
+}
+.image-container3 {
+    position: absolute;
+    left: 830px;
+    top: 815%;
+    cursor: pointer;
+}
+.image-container4 {
+    position: absolute;
+    left: 160px;
+    top: 815%;
+    cursor: pointer;
+}
+.image-container5 {
+    position: absolute;
+    left: 495px;
+    top: 815%;
+    cursor: pointer;
+}
+.image-container6 {
+    position: absolute;
+    left: 830px;
+    top: 770.2%;
+    cursor: pointer;
+}
+.image-container7 {
+    position: absolute;
+    left: 160px;
+    top: 860%;
+    cursor: pointer;
+}
